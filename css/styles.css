@@ -1,0 +1,174 @@
+body {
+  font-family: "Montserrat";
+  text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Montserrat-Bold", sans-serif;
+}
+
+p {
+  color: #8f8f8f;
+}
+
+/******************************************************* H E A D I N G *******************************************************/
+.big-heading {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+.section-heading {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+/***************************************************** C O N T A I N E R *****************************************************/
+.container-fluid {
+  padding: 7% 15%;
+}
+
+.colored-section {
+  background-color: #ff4c68;
+  color: #ffffff;
+  line-height: 1.5;
+}
+
+.white-section {
+  background-color: #fff;
+  line-height: 1.5;
+}
+
+/************************************************* N A V I G A T I O N  B A R ************************************************/
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: "Montserrat";
+}
+
+/*********************************************** D O W N L O A D  B U T T O N S **********************************************/
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+/*******************^^^^^********************************* T I T L E *********************************************************/
+#title .container-fluid {
+  padding: 3% 15% 7%;
+  text-align: left;
+}
+
+.title-image {
+  width: 60%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 30%;
+}
+
+@media (max-width: 1028px) {
+  #title {
+    text-align: center;
+  }
+
+  .title-image {
+    position: static;
+    transform: rotate(0);
+  }
+}
+
+/*********************************************** F E A T U R E S  S E C T I O N **********************************************/
+#features {
+  position: relative;
+  z-index: 1;
+}
+
+.feature-box {
+  padding: 5%;
+}
+
+.features-h3 {
+  font-size: 2rem;
+}
+
+.features-icons {
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+
+.features-icons:hover {
+  color: #ff4c68;
+}
+
+/******************************************** T E S T O M O N I A L  S E C T I O N *******************************************/
+#testimonials {
+  background-color: #ef8172;
+}
+
+.testimonial-image {
+  border-radius: 100%;
+  width: 20%;
+  margin: 20px;
+}
+
+.testimonial-text {
+  font-size: 3rem;
+}
+
+/*******************^^^^^********************************* P R E S S *********************************************************/
+#press {
+  background-color: #ef8172;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+/************************************************ P R I C I N G  S E C T I O N ***********************************************/
+#pricing {
+  padding: 100px;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+}
+
+.price-text {
+  font-size: 3rem;
+}
+
+/************************************************* F O O T E R  S E C T I O N ************************************************/
+.footer-icon {
+  margin: 20px 10px;
+  font-size: 30px;
+  width: 80px;
+  transition: transform 2s width 2s height 2s;
+}
+
+#twitter-icon:hover {
+  color: #00acee;
+}
+
+#fb-icon:hover {
+  color: #3b5998;
+}
+
+#insta-icon:hover {
+  color: red;
+}
+
+#gmail-icon:hover {
+  color: #d44638;
+}
